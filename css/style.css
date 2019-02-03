@@ -1,0 +1,64 @@
+.header{
+	background-image: url(../images/green-northern-lights-over-the-lake-facebook-covers.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider{
+	background-color: rgba(100,100,100,0.5);
+}
+.content {
+    padding: 100px 30px;
+    color:white;
+}
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+}
+
+
+.ci{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.ci li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: green;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: red;
+}
+mark, .mark {
+    padding: 0.2em;
+    background-color: green;
+}
+.btn-primary {
+  margin-bottom: 10px;
+}
